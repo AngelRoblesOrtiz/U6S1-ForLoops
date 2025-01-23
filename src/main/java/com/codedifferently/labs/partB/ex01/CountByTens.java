@@ -3,10 +3,9 @@ package com.codedifferently.labs.partB.ex01;
 public class CountByTens {
     public static String countingByTens() {
         String response = "";
-
-        /**
-         * Your code goes here
-         */
+        for (int i = 10; i < 101; i = i + 10) {
+            response += i + "\n";
+        }
         return response;
     }
 

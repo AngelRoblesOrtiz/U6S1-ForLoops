@@ -1,16 +1,16 @@
 package com.codedifferently.labs.partB.ex01;
 
-public class CountingExample {
-    public static String counting() {
-        String response = "";
-        for(int i = 1; i < 6; i++){
-           response += i;
-        }
-        return response;
+public class CountingExample { //creates parent class
+    public static String counting() { //creates counting method class
+        String response = ""; //creates empty response string
+        for(int i = 1; i < 6; i++){ //creates for loop that iterates 5 times
+           response += i; //adds on i to response
+        } //closes for loop
+        return response; //returns response
 
-    }
-    public static void main(String[] args) {
-        String count = counting();
-        System.out.print(count);
-    }
-}
+    } //closes counting method
+    public static void main(String[] args) { //creates main class
+        String count = counting(); //creates string equal to counting output
+        System.out.print(count); //prints out the string
+    } //closes main class
+} //closes parent class
